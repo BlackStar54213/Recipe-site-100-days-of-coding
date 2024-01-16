@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: public sans;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 90%;
+}
+
+img {
+    height: 40vh;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.text-center {
+    padding: 20px;
+    background-color: rebeccapurple;
+    width: 40%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    color: white;
+}
+
+.meal {
+    width: 40%;
+    height: 100vh;
+    overflow-y: scroll;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(64, 64, 255);
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    height: 40px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+strong {
+    margin-bottom: 20px;
+}
+
+.five {
+    background-color: rebeccapurple;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    position: relative;
+}
+
+ul {
+    padding: 15px 10px;
+}
+
+.five h4 {
+    font-size: 23px;
+    display: inline;
+}
+
+.seven {
+    padding: 20px 10px;
+    line-height: 25px;
+}
+
+h5 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
